@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+
+    table, th, td {
+      border: 1px solid black;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form action="register" method="post">
+    <table>
+      <tr>
+        <td><label for="id">ID:</label></td>
+        <td><input type="text" id="id" name="id" required></td>
+      </tr>
+      <tr>
+        <td><label for="firstname">First Name:</label></td>
+        <td><input type="text" id="firstname" name="firstname" required></td>
+      </tr>
+      <tr>
+        <td><label for="lastname">Last Name:</label></td>
+        <td><input type="text" id="lastname" name="lastname" required></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" id="email" name="email" required></td>
+      </tr>
+      <tr>
+        <td><label for="password">Password:</label></td>
+        <td><input type="password" id="password" name="password" required></td>
+      </tr>
+
+      <tr>
+        <td><label for="dob">Date of Birth:</label></td>
+        <td><input type="date" id="dob" name="dob" required></td>
+      </tr>
+      <td><label for="status">Status:</label></td>
+        <td><input type="text" id="status" name="status" required></td>
+      <tr>
+        <td><label for="role">Role:</label></td>
+          <td><input type="text" id="role" name="role" required readonly="readonly" value="voter"></td>
+      </tr>
+    </table>
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</body>
+</html>

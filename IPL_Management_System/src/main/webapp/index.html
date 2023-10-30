@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>IPL</title>
+<style type="text/css">
+#itable
+{
+border :2px solid black;
+border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+	<form action="login" method="post">
+		<table align="center" id='itable'>
+			<tbody>
+				<tr>
+					<td><label for='Player-name'>Choose A Team :</label></td>
+					<td>
+					<select name='team'>
+					<option  value="1" >CHENNAI SUPER KINGS</option>
+					<option	 value="2">GUJARAT TITANS</option>
+					<option  value="3">KOLKATA KNIGHT RIDERS</option>
+					</select>
+					</td>
+				</tr>
+				<tr>
+					<td><label for='first-name'>Candidate-Name :</label>
+					</td><td><input type='text' name='first-name' id='first-name'></td>
+				</tr>
+				<tr>
+					<td><label for='last-name'>Candidate-Name :</label>
+					</td><td><input type='text' name='last-name' id='last-name'></td>
+				</tr>
+				<tr>
+					<td><label for='dob'>Date of Birth :</label></td>
+					<td><input type='date' name='dob' id='dob'></td>
+				</tr>
+				<tr>
+					<td><label for='batavg'>Batting Average :</label></td>
+					<td><input type='text' name='batavg' id='batavg'></td>
+				</tr>
+				<tr>
+					<td><label for='wickets'>Wicket Takens :</label></td>
+					<td><input type='text' name='wicket' id='wickets'></td>
+				</tr>
+				<tr>
+					<td><label for='addplayer'>Add Player :</label></td>
+					<td><input type="submit" name='addplayer' id='addplayer'></td>
+				</tr>
+			</tbody>
+		</table>
+	
+	</form>
+</body>
+</html>
